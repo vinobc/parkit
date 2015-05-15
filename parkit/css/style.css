@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #f2f2f2;
+	font: 82% arial, helvetica, sans-serif;
+}
+
+#container {
+	width: 250px;
+	height: 80px;
+	margin: 0px auto;	
+}
+#cars,#carAvl, #carFtrs, #c1 {
+	color: grey;
+	background-color: #ffffff;
+	width: 250x;
+	height: 70px;
+	margin: 0px auto;	
+	border: 1px solid #333;
+	overflow: scroll;
+	margin-bottom: 3px;
+	
+}
+
+#fetchCars, #fetchCarAvl, #fetchCarFtrs, #fetchc1 {
+	width: 250px;
+	height: 20px;
+	margin-bottom: 3px;
+}
+#title {
+	width: 250x;
+	height: 20px;
+	text-align: center;
+	background-color: #cccbbb;
+	color: white;
+	margin-bottom: 3px;
+	padding-top: 5px;
+	border-radius: 5px;
+}

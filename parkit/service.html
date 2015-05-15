@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RPMS Client</title>
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+      <!-- Javascript -->
+            <!--<script src="js/jquery-1.8.2.min.js"></script>-->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/scripts.js"></script>
+          <!-- CSS -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style1.css">
+
+</head>
+<body>
+  <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo span4">
+                        <h1><span class="red">Real-time Parking Management System.</span></h1>
+                    </div>
+                     <div class="links span8">
+                         <a href="home.html" rel="tooltip" data-placement="bottom" data-original-title="Home"><span class=red>Home</span></a>
+                        <!--<a class="" href="" rel="tooltip" data-placement="bottom" data-original-title="book"></a>-->
+                        <a href="book.html" rel="tooltip" data-placement="bottom" data-original-title="book"><span class=red>Book</span></a>
+                        <a href="service.html" rel="tooltip" data-placement="bottom" data-original-title="service"><span class=red>Services</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="verify.jsp" rel="tooltip" data-placement="bottom" data-original-title="verify"><span class=red>Verify</span></a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="register-container container">
+            <div class="row">
+                <div class="iphone span5">
+                     <img src="img/banner.png" alt="">
+                    <img src="img/slide-2.jpg" alt="">
+                    <img src="img/big9.jpg" alt="">
+                </div>
+              
+                   <div id="container" >
+<h4 class="red">(click the buttons corresponding to the services once
+    , for updations refresh the page and click the buttons once again)</h6>
+<div id="one">
+    <div id="title"><span class="red">RPMS Services</span>
+
+    </div>
+    
+    
+	
+    <h4><span> To View the list of cars parked in the lot </span><br><button id="fetchCars">Get Cars</button></h4>
+        <div id="cars"></div>
+         <br>
+                       <br>
+        <h4> Total Number of Cars Parked:  <span id="cp"></span></h4>
+        <h4> Remaining Number of Parking Lots:  <span id="vac"></span></h4>
+        
+</div>
+                       <br>
+                       <br>
+                       <br>
+                      
+                      
+
+<div id="two">
+    <h4><span> To Check whether your car is parked
+        <input type="text" name="ca" id="ca" placeholder="Enter Car Number..."/>
+        <button id="fetchCarAvl">Check ur Car Availability</button><span></h4>
+	<div id="carAvl"></div>
+	
+        
+</div>
+                       
+                       <br>
+                       <br>
+                       <br>
+
+<div id="three">
+        <h4> <span>To cross verify whether its your car <input type="text" name="cf" id="cf" placeholder="Enter Car Number..."/>
+             <button id="fetchCarFtrs">Check ur Car's Features</button><span></h4>
+	<div id="carFtrs"></div>
+	
+</div>
+                   
+<!--
+<div id="three">
+	<div id="c1"></div>
+	<button id="fetchc1">test</button>
+</div>
+
+-->
+</div>
+                
+                </div>
+                <div class="reg"></div>
+            </div>
+        
+
+
+</body>
+</html>

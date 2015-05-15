@@ -1,0 +1,5 @@
+---
+# The only mandatory fields are name and path for simple Java web apps.
+applications:
+- name: parkit
+  path: parkit
